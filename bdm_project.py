@@ -18,9 +18,9 @@ print "}</style>"
 print ""
 
 db = MySQLdb.connect(host="localhost",  # Hostname
-                     user="fancy",  # Username
-                     passwd="mysql",  # Password
-                     db="hotel")  # Schema
+                     user="*****",  # Username
+                     passwd="******",  # Password
+                     db="******")  # Schema
 
 print '<form method="post" action="bdm_project.py">'
 print "	Name:<br>"
