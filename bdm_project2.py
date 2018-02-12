@@ -19,9 +19,9 @@ print ""
 print '<form method="post" action="bdm_project2.py">'
 
 db = MySQLdb.connect(host="localhost",  # Hostname
-                     user="fancy",  # Username
-                     passwd="mysql",  # Password
-                     db="dummy")  # Schema
+                     user="******",  # Username
+                     passwd="******",  # Password
+                     db="******")  # Schema
 
 cur = db.cursor()
 
