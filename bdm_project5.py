@@ -14,9 +14,9 @@ print '''
 <body>'''
 
 db = MySQLdb.connect(host="localhost",  # Hostname
-                     user="fancy",  # Username
-                     passwd="mysql",  # Password
-                     db="hotel")  # Schema
+                     user="******",  # Username
+                     passwd="******",  # Password
+                     db="******")  # Schema
 
 print '''<form action="/Lab_02.py">
   <fieldset>
