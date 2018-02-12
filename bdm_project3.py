@@ -21,9 +21,9 @@ print "}</style>"
 print ""
 
 db = MySQLdb.connect(host="localhost",  # Hostname
-                     user="fancy",  # Username
-                     passwd="mysql",  # Password
-                     db="hotel")  # Schema
+                     user="******",  # Username
+                     passwd="******",  # Password
+                     db="******")  # Schema
 
 print '<form method="post" action="bdm_project3.py">'
 print "	Number of Single Occupancy + Queen Size: "
